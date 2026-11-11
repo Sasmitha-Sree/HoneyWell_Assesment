@@ -1,0 +1,46 @@
+WITH order_totals AS (
+    SELECT
+        o.order_id,
+        o.customer_id,
+        DATE_TRUNC('month', o.ordered_at) AS order_month,
+        SUM(oi.quantity * oi.unit_price) AS order_value
+    FROM orders o
+    JOIN order_items oi
+        ON oi.order_id = o.order_id
+    WHERE o.status <> 'CANCELLED'
+      AND o.ordered_at >= DATE '2026-01-01'
+      AND o.ordered_at <  DATE '2027-01-01'
+    GROUP BY
+        o.order_id,
+        o.customer_id,
+        DATE_TRUNC('month', o.ordered_at)
+),
+payment_totals AS (
+    SELECT
+        p.order_id,
+        SUM(p.amount) AS captured_payment_value
+    FROM payments p
+    WHERE p.status = 'CAPTURED'
+    GROUP BY p.order_id
+)
+SELECT
+    c.customer_id,
+    c.name,
+    ot.order_month,
+    COUNT(*) AS order_count,
+    SUM(ot.order_value) AS gross_order_value,
+    COALESCE(SUM(pt.captured_payment_value), 0) AS captured_payment_value,
+    SUM(ot.order_value)
+        - COALESCE(SUM(pt.captured_payment_value), 0) AS outstanding_value
+FROM order_totals ot
+JOIN customers c
+    ON c.customer_id = ot.customer_id
+LEFT JOIN payment_totals pt
+    ON pt.order_id = ot.order_id
+GROUP BY
+    c.customer_id,
+    c.name,
+    ot.order_month
+ORDER BY
+    c.customer_id,
+    ot.order_month;

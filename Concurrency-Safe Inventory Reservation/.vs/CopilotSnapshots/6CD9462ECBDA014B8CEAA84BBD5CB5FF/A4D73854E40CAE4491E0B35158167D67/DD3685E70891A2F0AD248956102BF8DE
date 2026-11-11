@@ -1,0 +1,55 @@
+﻿using Concurrency_Safe_Inventory_Reservation.Inventory.Data;
+using Concurrency_Safe_Inventory_Reservation.Inventory.Models;
+using Concurrency_Safe_Inventory_Reservation.Inventory.Services;
+using Microsoft.EntityFrameworkCore;
+
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+
+builder.Services.AddControllers();
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+// Relational store. Swap UseSqlite for UseSqlServer/UseNpgsql in production.
+builder.Services.AddDbContext<InventoryDbContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("Inventory") ?? "Data Source=inventory.db"));
+
+builder.Services.AddSingleton(TimeProvider.System);
+builder.Services.AddScoped<IReservationService, ReservationService>();
+
+var app = builder.Build();
+
+// Create the schema and seed demo stock.
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<InventoryDbContext>();
+    db.Database.EnsureCreated();
+
+    if (!db.InventoryItems.Any())
+    {
+        db.InventoryItems.Add(new InventoryItem
+        {
+     Sku = "SKU-001",
+     AvailableQuantity = 100,
+     RowVersion = Guid.NewGuid().ToByteArray()
+        });
+        db.SaveChanges();
+    }
+}
+
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
+app.UseHttpsRedirection();
+
+app.UseAuthorization();
+
+app.MapControllers();
+
+app.Run();

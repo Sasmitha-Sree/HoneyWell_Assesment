@@ -1,0 +1,206 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Assiment\\HoneyWell_Assesment\\Concurrency-Safe Inventory Reservation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8D8506DE-7FA6-474B-B191-71C6F5A676B7}|Concurrency-Safe Inventory Reservation.csproj|d:\\assiment\\honeywell_assesment\\concurrency-safe inventory reservation\\inventory\\data\\inventorydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D8506DE-7FA6-474B-B191-71C6F5A676B7}|Concurrency-Safe Inventory Reservation.csproj|solutionrelative:inventory\\data\\inventorydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D8506DE-7FA6-474B-B191-71C6F5A676B7}|Concurrency-Safe Inventory Reservation.csproj|d:\\assiment\\honeywell_assesment\\concurrency-safe inventory reservation\\inventory\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D8506DE-7FA6-474B-B191-71C6F5A676B7}|Concurrency-Safe Inventory Reservation.csproj|solutionrelative:inventory\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D8506DE-7FA6-474B-B191-71C6F5A676B7}|Concurrency-Safe Inventory Reservation.csproj|d:\\assiment\\honeywell_assesment\\concurrency-safe inventory reservation\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D8506DE-7FA6-474B-B191-71C6F5A676B7}|Concurrency-Safe Inventory Reservation.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D8506DE-7FA6-474B-B191-71C6F5A676B7}|Concurrency-Safe Inventory Reservation.csproj|d:\\assiment\\honeywell_assesment\\concurrency-safe inventory reservation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D8506DE-7FA6-474B-B191-71C6F5A676B7}|Concurrency-Safe Inventory Reservation.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D8506DE-7FA6-474B-B191-71C6F5A676B7}|Concurrency-Safe Inventory Reservation.csproj|d:\\assiment\\honeywell_assesment\\concurrency-safe inventory reservation\\inventory\\models\\inventoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D8506DE-7FA6-474B-B191-71C6F5A676B7}|Concurrency-Safe Inventory Reservation.csproj|solutionrelative:inventory\\models\\inventoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D8506DE-7FA6-474B-B191-71C6F5A676B7}|Concurrency-Safe Inventory Reservation.csproj|d:\\assiment\\honeywell_assesment\\concurrency-safe inventory reservation\\inventory\\models\\reservationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D8506DE-7FA6-474B-B191-71C6F5A676B7}|Concurrency-Safe Inventory Reservation.csproj|solutionrelative:inventory\\models\\reservationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D8506DE-7FA6-474B-B191-71C6F5A676B7}|Concurrency-Safe Inventory Reservation.csproj|d:\\assiment\\honeywell_assesment\\concurrency-safe inventory reservation\\inventory\\services\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D8506DE-7FA6-474B-B191-71C6F5A676B7}|Concurrency-Safe Inventory Reservation.csproj|solutionrelative:inventory\\services\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D8506DE-7FA6-474B-B191-71C6F5A676B7}|Concurrency-Safe Inventory Reservation.csproj|d:\\assiment\\honeywell_assesment\\concurrency-safe inventory reservation\\inventory\\services\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D8506DE-7FA6-474B-B191-71C6F5A676B7}|Concurrency-Safe Inventory Reservation.csproj|solutionrelative:inventory\\services\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D8506DE-7FA6-474B-B191-71C6F5A676B7}|Concurrency-Safe Inventory Reservation.csproj|d:\\assiment\\honeywell_assesment\\concurrency-safe inventory reservation\\inventory\\contracts\\reserverequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D8506DE-7FA6-474B-B191-71C6F5A676B7}|Concurrency-Safe Inventory Reservation.csproj|solutionrelative:inventory\\contracts\\reserverequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D8506DE-7FA6-474B-B191-71C6F5A676B7}|Concurrency-Safe Inventory Reservation.csproj|d:\\assiment\\honeywell_assesment\\concurrency-safe inventory reservation\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D8506DE-7FA6-474B-B191-71C6F5A676B7}|Concurrency-Safe Inventory Reservation.csproj|solutionrelative:controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Assiment\\HoneyWell_Assesment\\Concurrency-Safe Inventory Reservation\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Assiment\\HoneyWell_Assesment\\Concurrency-Safe Inventory Reservation\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAjwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T09:20:33.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ReservationsController.cs",
+              "DocumentMoniker": "D:\\Assiment\\HoneyWell_Assesment\\Concurrency-Safe Inventory Reservation\\Controllers\\ReservationsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReservationsController.cs",
+              "ToolTip": "D:\\Assiment\\HoneyWell_Assesment\\Concurrency-Safe Inventory Reservation\\Controllers\\ReservationsController.cs",
+              "RelativeToolTip": "Controllers\\ReservationsController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAABBwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T09:25:47.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ReserveRequest.cs",
+              "DocumentMoniker": "D:\\Assiment\\HoneyWell_Assesment\\Concurrency-Safe Inventory Reservation\\Inventory\\Contracts\\ReserveRequest.cs",
+              "RelativeDocumentMoniker": "Inventory\\Contracts\\ReserveRequest.cs",
+              "ToolTip": "D:\\Assiment\\HoneyWell_Assesment\\Concurrency-Safe Inventory Reservation\\Inventory\\Contracts\\ReserveRequest.cs",
+              "RelativeToolTip": "Inventory\\Contracts\\ReserveRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T09:25:37.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ReservationService.cs",
+              "DocumentMoniker": "D:\\Assiment\\HoneyWell_Assesment\\Concurrency-Safe Inventory Reservation\\Inventory\\Services\\ReservationService.cs",
+              "RelativeDocumentMoniker": "Inventory\\Services\\ReservationService.cs",
+              "ToolTip": "D:\\Assiment\\HoneyWell_Assesment\\Concurrency-Safe Inventory Reservation\\Inventory\\Services\\ReservationService.cs",
+              "RelativeToolTip": "Inventory\\Services\\ReservationService.cs",
+              "ViewState": "AgIAAMYAAAAAAAAAAABRwMkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T09:25:33.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IReservationService.cs",
+              "DocumentMoniker": "D:\\Assiment\\HoneyWell_Assesment\\Concurrency-Safe Inventory Reservation\\Inventory\\Services\\IReservationService.cs",
+              "RelativeDocumentMoniker": "Inventory\\Services\\IReservationService.cs",
+              "ToolTip": "D:\\Assiment\\HoneyWell_Assesment\\Concurrency-Safe Inventory Reservation\\Inventory\\Services\\IReservationService.cs",
+              "RelativeToolTip": "Inventory\\Services\\IReservationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T09:25:03.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InventoryDbContext.cs",
+              "DocumentMoniker": "D:\\Assiment\\HoneyWell_Assesment\\Concurrency-Safe Inventory Reservation\\Inventory\\Data\\InventoryDbContext.cs",
+              "RelativeDocumentMoniker": "Inventory\\Data\\InventoryDbContext.cs",
+              "ToolTip": "D:\\Assiment\\HoneyWell_Assesment\\Concurrency-Safe Inventory Reservation\\Inventory\\Data\\InventoryDbContext.cs",
+              "RelativeToolTip": "Inventory\\Data\\InventoryDbContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T09:24:56.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReservationResult.cs",
+              "DocumentMoniker": "D:\\Assiment\\HoneyWell_Assesment\\Concurrency-Safe Inventory Reservation\\Inventory\\Models\\ReservationResult.cs",
+              "RelativeDocumentMoniker": "Inventory\\Models\\ReservationResult.cs",
+              "ToolTip": "D:\\Assiment\\HoneyWell_Assesment\\Concurrency-Safe Inventory Reservation\\Inventory\\Models\\ReservationResult.cs",
+              "RelativeToolTip": "Inventory\\Models\\ReservationResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T09:24:45.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InventoryItem.cs",
+              "DocumentMoniker": "D:\\Assiment\\HoneyWell_Assesment\\Concurrency-Safe Inventory Reservation\\Inventory\\Models\\InventoryItem.cs",
+              "RelativeDocumentMoniker": "Inventory\\Models\\InventoryItem.cs",
+              "ToolTip": "D:\\Assiment\\HoneyWell_Assesment\\Concurrency-Safe Inventory Reservation\\Inventory\\Models\\InventoryItem.cs",
+              "RelativeToolTip": "Inventory\\Models\\InventoryItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T09:24:34.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "D:\\Assiment\\HoneyWell_Assesment\\Concurrency-Safe Inventory Reservation\\Inventory\\Models\\Reservation.cs",
+              "RelativeDocumentMoniker": "Inventory\\Models\\Reservation.cs",
+              "ToolTip": "D:\\Assiment\\HoneyWell_Assesment\\Concurrency-Safe Inventory Reservation\\Inventory\\Models\\Reservation.cs",
+              "RelativeToolTip": "Inventory\\Models\\Reservation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T09:24:34.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\Assiment\\HoneyWell_Assesment\\Concurrency-Safe Inventory Reservation\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\Assiment\\HoneyWell_Assesment\\Concurrency-Safe Inventory Reservation\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T09:20:42.472Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
