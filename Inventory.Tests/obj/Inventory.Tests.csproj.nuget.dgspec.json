@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Assiment\\HoneyWell_Assesment\\Inventory.Tests\\Inventory.Tests.csproj": {}
+    "C:\\Users\\Z004M07K\\Downloads\\Cloned_repo\\Assesments\\Inventory.Tests\\Inventory.Tests.csproj": {}
   },
   "projects": {
-    "D:\\Assiment\\HoneyWell_Assesment\\Inventory.Tests\\Inventory.Tests.csproj": {
+    "C:\\Users\\Z004M07K\\Downloads\\Cloned_repo\\Assesments\\Inventory.Tests\\Inventory.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Assiment\\HoneyWell_Assesment\\Inventory.Tests\\Inventory.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Z004M07K\\Downloads\\Cloned_repo\\Assesments\\Inventory.Tests\\Inventory.Tests.csproj",
         "projectName": "Inventory.Tests",
-        "projectPath": "D:\\Assiment\\HoneyWell_Assesment\\Inventory.Tests\\Inventory.Tests.csproj",
+        "projectPath": "C:\\Users\\Z004M07K\\Downloads\\Cloned_repo\\Assesments\\Inventory.Tests\\Inventory.Tests.csproj",
         "packagesPath": "C:\\Users\\Z004M07K\\.nuget\\packages\\",
-        "outputPath": "D:\\Assiment\\HoneyWell_Assesment\\Inventory.Tests\\obj\\",
+        "outputPath": "C:\\Users\\Z004M07K\\Downloads\\Cloned_repo\\Assesments\\Inventory.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,6 +1,0 @@
-@Concurrency_Safe_Inventory_Reservation_HostAddress = http://localhost:5104
-
-GET {{Concurrency_Safe_Inventory_Reservation_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
